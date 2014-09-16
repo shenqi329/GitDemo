@@ -13,11 +13,16 @@
 @property(nonatomic) int num;
 
 - (void)sayHello;
+- (void)sayByeBye;
 
 @end
 
 @implementation ViewController
 
+- (void)sayByeBye
+{
+    NSLog(@"Bye - Bye");
+}
 
 
 - (void)viewDidLoad {
