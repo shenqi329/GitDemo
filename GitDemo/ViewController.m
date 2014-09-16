@@ -12,10 +12,17 @@
 
 @property(nonatomic) int num;
 
+- (void)sayHello;
+
 @end
 
 @implementation ViewController
-            
+
+- (void)sayHello
+{
+    NSLog(@"Hello");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -28,6 +35,8 @@
     _num = 1;
     
     NSLog(@"%d",_num);
+    
+    [self sayHello];
 }
 
 @end
