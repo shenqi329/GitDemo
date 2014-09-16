@@ -18,10 +18,7 @@
 
 @implementation ViewController
 
-- (void)sayHello
-{
-    NSLog(@"Hello");
-}
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -37,6 +34,11 @@
     NSLog(@"%d",_num);
     
     [self sayHello];
+}
+
+- (void)sayHello
+{
+    NSLog(@"Hello");
 }
 
 @end
