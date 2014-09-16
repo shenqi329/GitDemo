@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+@property(nonatomic) int num;
+
 @end
 
 @implementation ViewController
@@ -22,6 +24,10 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+    
+    _num = 1;
+    
+    NSLog(@"%d",_num);
 }
 
 @end
