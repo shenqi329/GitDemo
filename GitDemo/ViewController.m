@@ -12,10 +12,17 @@
 
 @property(nonatomic) int num;
 
+- (void)sayByeBye;
+
 @end
 
 @implementation ViewController
-            
+
+- (void)sayByeBye
+{
+    NSLog(@"Bye - Bye");
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
